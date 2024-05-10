@@ -1,0 +1,58 @@
+body{
+	background: black;
+	color: orange;
+	font-family: sans-serif;
+}
+.amzn_img{
+	display: block;
+	margin: auto;
+    width: 525px;
+    height: 185px;
+}
+ul{
+	text-align: center;
+}
+ul a{
+	text-decoration: none;
+	color: orange;
+}
+ul a:hover{
+	text-decoration: none;
+	color: #ff7200;
+}
+ul li:after{
+	content: "|";
+	padding: 10px;
+}
+.last:after{
+	content: none;
+}
+nav li{
+	font-size: 26px;
+	display: inline;
+	text-align: center;
+}
+a img{
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+
+}
+a img:hover{
+	animation-name: animate;
+	animation-duration: 300ms;
+	animation-fill-mode: forwards;
+}
+@keyframes animate{
+	0%{border-radius: 0%}
+	10%{border-radius: 5%}
+	20%{border-radius: 10%}
+	30%{border-radius: 15%}
+	40%{border-radius: 20%}
+	50%{border-radius: 25%}
+	60%{border-radius: 30%}
+	70%{border-radius: 35%}
+	80%{border-radius: 40%}
+	90%{border-radius: 45%}
+	100%{border-radius: 50%}
+}
